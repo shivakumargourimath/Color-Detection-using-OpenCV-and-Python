@@ -7,7 +7,7 @@ Click anywhere on the image, and the script will display the color name and RGB 
 Press Esc to exit the program.
 
 # How It Works
-1.Loading the Image: OpenCV reads the input image and displays it in a window.
+1.Loading the Image: OpenCV reads the input image and displays it in a window.\n
 2.Color Data: The colors.csv file contains color names and their corresponding RGB values. This file helps the program match the clicked pixel to its closest color name.
 3.Mouse Callback: OpenCV captures the mouse click events, extracting the RGB values of the clicked pixel.
 4.Color Matching: The program compares the pixel's RGB values with the colors in colors.csv to find the nearest color name.
